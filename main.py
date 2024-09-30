@@ -58,7 +58,6 @@ def get_badge(handle, website):
     response.content_type = 'image/svg+xml'
     return response
 
-
 @app.route("/")
 def home():
     return "This API is working."

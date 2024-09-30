@@ -1,0 +1,5 @@
+Flask
+pybadges
+requests
+beautifulsoup4
+setuptools

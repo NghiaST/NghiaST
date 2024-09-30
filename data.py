@@ -28,13 +28,14 @@ def get_info(handle, website):
 
 
 def get_cf(user):
-    url = f'https://www.codeforces.com/profile/{user}'
+    url = f'https://codeforces.com/api/user.rating?handle={user}'
     page = requests.get(url)
-    soup = bs(page.text, 'html.parser')
-    s = soup.find_all('span', attrs={'style':'font-weight:bold;'})
-    s=s[-1].text
+    if page.status_code != 200:
+        return [page.status_code, url]
+    json_data = page.json()
+    rating_str = json_data.get("result")[-1].get("newRating")
     col = 'red'
-    rating = int(s)
+    rating = int(rating_str)
     y=rating
     if (y <= 1199):
         col = '#cec8c1'
