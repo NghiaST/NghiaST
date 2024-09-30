@@ -11,11 +11,11 @@
 
 
 <!--- profile -->
-<div align="center">
+<!-- <div align="center">
   <img  src="https://scontent.fsgn5-5.fna.fbcdn.net/v/t39.30808-6/279282334_1045161439436741_4878218780357469750_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeH9P1dOki_obhvUgqZLN44iOlQK-MZ_nAo6VAr4xn-cCo-0-riIjNlLdrPOXiKp7Z-U5w5m2eAAMJgMrzoLMBiI&_nc_ohc=_oJdp_DCQ3AQ7kNvgFuC5gS&_nc_ht=scontent.fsgn5-5.fna&_nc_gid=A0ZOc3R7XLUPDoIu34v1xAP&oh=00_AYAt4olARqrVyVUNmsZhypBJUhbr6qTA37_-_simlZfn-w&oe=67007BD9" alt="Profile" style="border-radius: 50%; width: 200px; height: 200px;"/></a>
-</div>
+</div> -->
 
--------------------
+<!-- ------------------- -->
 
 <!--Intro start-->
 - 🔭 I’m currently a student at **University of Science - VNUHCM, Vietnam**
@@ -56,11 +56,11 @@
 <!--- stats (end) -->
 
 <!--- trophy (start) -->
-<div align=center>
+<!-- <div align=center>
   <a href="https://github.com/ryo-ma/github-profile-trophy" title="Go to Source">
       <img align="center" width=84% src="https://github-profile-trophy.vercel.app/?username=nghiast&theme=radical&row=1&column=7&margin-h=15&margin-w=5&no-bg=true" alt="TROPHY" />
     </a>
-</div>
+</div> -->
 <!--- trophy (start) -->
 
 
